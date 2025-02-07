@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Species Classifier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fish Species Classifier:</h1>
+    </header>
+
+    <section class="Description">
+        <h2>About the website and model:</h2>
+        <p>
+            <p>This model makes use of the following libraries:</p>
+            <ul>
+                <li>Flask</li>
+                <li>SciKit Learn</li>
+                <li>NumPy</li>
+                <li>Pandas</li>
+                <li>eXtreme Gradient Booster</li>
+                <li>Oputna</li>
+                <li>Warnings</li>
+            </ul>
+            <p>The daset used is <a href = "https://www.kaggle.com/datasets/vipullrathod/fish-market", target = "_blank">Kaggle Fish Market dataset</a>.</p>
+            <p>The website is made using HTML5, CSS and Javascript, with responsive web design for most screen sizes, for the deployment of the model.</p>
+            <strong>Warning: This model as of now makes use of a small dataset, so it can only classify between: Perch, Bream, Roach, Pike, Smelt, Parkki and Whitefish.</strong>
+        </p>
+    </section>
+
+    <div class="Card">
+        <img src="StardewFishes.jpg" alt="Fish Image" class="fishImage">
+
+        <form id="fishForm">
+            <label for="weight">Weight (in grams):</label>
+            <input type="number" id="weight" required>
+
+            <label for="length1">Horizontal Length (in cm):</label>
+            <input type="number" id="length1" required>
+
+            <label for="length2">Diagonal Length (in cm):</label>
+            <input type="number" id="length2" required>
+
+            <label for="length3">Cross-sectional Length (in cm):</label>
+            <input type="number" id="length3" required>
+
+            <label for="height">Height (in cm):</label>
+            <input type="number" id="height" required>
+
+            <label for="width">Width (in cm):</label>
+            <input type="number" id="width" required>
+
+            <button type="submit">Predict</button>
+        </form>
+
+        <div class="Results">
+            <h2>Prediction:</h2>
+            <p id="prediction">Waiting for inputs...</p>
+        </div>
+
+        <div class="Evaluation">
+            <h2>Evaluation Metrics:</h2>
+            <p id="f1Score">F1 Score: -</p>
+            <p id="accuracy">Accuracy: -</p>
+            <p id="precision">Precision: -</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            <strong>Warning: This model is not very accurate due to it's small dataset size, do not use it for commercial purposes.</strong>
+            Made by RedZapdos as a part of project R.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
