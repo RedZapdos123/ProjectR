@@ -14,8 +14,8 @@ from flask_cors import CORS
 warnings.filterwarnings("ignore", category = UserWarning)
 warnings.filterwarnings("ignore", category = DataConversionWarning)
 
-#Taking the dataset file path as input, and laoding it up.
-filePath = "C:\\Users\\Xeron\\OneDrive\\Documents\\Programs\\MachineLearning\\ProjectRv1\\FishSpeciesData.csv"
+#Taking the dataset file path as user input, and loading it up.
+filePath = input("Enter the file path of the fish dataset (CSV): ")
 data = pd.read_csv(filePath)
 
 #Encoding the Species column of the dataset.
