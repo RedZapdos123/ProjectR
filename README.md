@@ -27,7 +27,7 @@ This repository is composed of several distinct parts that work together to prov
 Before building any models, it's crucial to understand the data. The `fishdatasetVisualisation.py` program is dedicated to **Exploratory Data Analysis (EDA)**. It uses libraries like Matplotlib and Seaborn to generate various plots and charts to uncover patterns, identify correlations between different physical measurements, and understand the distribution of different fish species in the dataset.
 
 ![The data visualization output showing relationships between fish measurements, and the diversity of the data.](./images/FishSpeciesDataAnalysis.png)
-_Output visualization from the EDA script._
+_Output visualization from the EDA program._
 
 ### 3. Fish Species Classifier (`fishSpeciesClassifier.py`):
 
