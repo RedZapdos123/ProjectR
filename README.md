@@ -1,20 +1,20 @@
 # ProjectR: A Fish Data Analysis Toolkit 🐟
 
-## 📖 About The Project
+## About The Project R
 
-**ProjectR** is a comprehensive data science project focused on the analysis of fish data. This repository contains a collection of scripts and a web application designed to perform exploratory data analysis, visualize datasets, and build predictive machine learning models. The core of this project is to classify fish species and predict fish weight based on their physical characteristics.
+**ProjectR** is a comprehensive data science project focused on the analysis of fish data, and prediction,a nd classification fish attributes. This repository contains a collection of python perform exploratory data analysis, visualize datasets, and build predictive machine learning models, and  and a website based interface for the predictive machine learning model. The core of this project is to classify fish species and predict fish weight based on their physical characteristics.
 
-This project is broken down into several key components: a web interface (`ProjectRv1`), a data visualization script, a species classification model, and a weight prediction model.
+This project is broken down into several key components: a weight prediction model with a basic web interface (`ProjectRv1`), a data visualization script, and a fish species classification model.
 
 ---
 
-## 🏛️ Key Components
+## Key Components
 
 This repository is composed of several distinct parts that work together to provide a complete analysis solution.
 
-### 1. ProjectRv1 (Web Application)
+### 1. ProjectRv1
 
-`ProjectRv1` is the user-facing web application that serves as an interactive dashboard for the machine learning models. It allows users to input fish measurements and get real-time predictions for species and weight without needing to run the Python scripts directly. It provides a user-friendly interface to the powerful models built in this project. 
+`ProjectRv1` is the user-facing web application that serves as an interactive dashboard for the fish weight prediction machine learning model. It allows users to input fish measurements and species and get real-time predictions for species and weight without needing to run the Python scripts directly. It provides a user-friendly interface to the powerful XGBoost based machine learning model built in this project. 
 
 ![Screenshot of the ProjectRv1 web interace](image1.png)
 
