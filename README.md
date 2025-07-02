@@ -16,11 +16,11 @@ This repository is composed of several distinct parts that work together to prov
 
 `ProjectRv1` is the user-facing web application that serves as an interactive dashboard for the fish weight prediction machine learning model. It allows users to input fish measurements and species and get real-time predictions for species and weight without needing to run the Python scripts directly. It provides a user-friendly interface to the powerful XGBoostRegression based machine learning model built in this project, for fish weight predictions from it's other attributes. The fish species is encoded with an one hot encoder.
 
-![Screenshot of the ProjectRv1 web interace](./images/image2.png)
+![Screenshot of the ProjectRv1 web interace](./images/Image2.png)
 
-![Screenshot of the ProjectRv1 web interace](./images/image3.png)
+![Screenshot of the ProjectRv1 web interace](./images/Image3.png)
 
-![Screenshot of the ProjectRv1 web interace](./images/image1.png)
+![Screenshot of the ProjectRv1 web interace](./images/Image1.png)
 
 ### 2. Fish Dataset Visualization (`fishdatasetVisualisation.py`):
 
@@ -54,9 +54,9 @@ This project leverages several key technologies and machine learning concepts:
     * **Pandas:** For data manipulation and handling the dataset.
     * **NumPy:** For numerical operations.
     * **Scikit-learn:** For building, training, and evaluating the machine learning models.
-    * **Matplotlib & Seaborn:** For data visualization and creating the plots.
-* **Web Framework (for ProjectRv1):** Likely **Flask** or **Django**.
+    * **Matplotlib and Seaborn:** For data visualization and creating the plots.
+* **Web Framework (for ProjectRv1): Flask**.
 * **Core Algorithms:**
-    * **Classification:** SVM, Random Forest, KNN, etc.
-    * **Regression:** Linear Regression, Gradient Boosting, etc.
+    * **Classification:** XGBoostClassifier
+    * **Regression:** XGBoostRegressor
 
