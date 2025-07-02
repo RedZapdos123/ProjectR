@@ -14,22 +14,19 @@ This repository is composed of several distinct parts that work together to prov
 
 ### 1. ProjectRv1 (Web Application)
 
-`ProjectRv1` is the user-facing web application that serves as an interactive dashboard for the machine learning models. It allows users to input fish measurements and get real-time predictions for species and weight without needing to run the Python scripts directly. It provides a user-friendly interface to the powerful models built in this project.
+`ProjectRv1` is the user-facing web application that serves as an interactive dashboard for the machine learning models. It allows users to input fish measurements and get real-time predictions for species and weight without needing to run the Python scripts directly. It provides a user-friendly interface to the powerful models built in this project. 
 
-![Screenshot of the ProjectRv1 home page](image1.png)
-_Homepage of the application._
+![Screenshot of the ProjectRv1 web interace](image1.png)
 
-![Screenshot of the prediction input form](image2.png)
-_User input form for fish characteristics._
+![Screenshot of the ProjectRv1 web interace](image2.png)
 
-![Screenshot showing the model's prediction results](image3.png)
-_Display of the prediction output._
+![Screenshot of the ProjectRv1 web interace](image3.png)
 
 ### 2. Fish Dataset Visualization (`fishdatasetVisualisation.py`)
 
 Before building any models, it's crucial to understand the data. The `fishdatasetVisualisation.py` script is dedicated to **Exploratory Data Analysis (EDA)**. It uses libraries like Matplotlib and Seaborn to generate various plots and charts to uncover patterns, identify correlations between different physical measurements, and understand the distribution of different fish species in the dataset.
 
-![Example of data visualization output showing relationships between fish measurements](data_visualization.png)
+![Example of data visualization output showing relationships between fish measurements](./images/FishSpeciesDataAnalysis.png)
 _Output visualization from the EDA script._
 
 ### 3. Fish Species Classifier (`fishSpeciesClassifier.py`)
@@ -63,46 +60,3 @@ This project leverages several key technologies and machine learning concepts:
     * **Classification:** SVM, Random Forest, KNN, etc.
     * **Regression:** Linear Regression, Gradient Boosting, etc.
 
----
-
-## 🚀 Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-You need to have Python and pip installed on your machine.
-
-### Installation
-
-1.  Clone the repository:
-    ```sh
-    git clone [https://github.com/RedZapdos123/ProjectR.git](https://github.com/RedZapdos123/ProjectR.git)
-    ```
-2.  Navigate to the project directory:
-    ```sh
-    cd ProjectR
-    ```
-3.  Install the required Python packages:
-    ```sh
-    pip install -r requirements.txt
-    ```
-    *(Note: You may need to create a `requirements.txt` file listing all dependencies like pandas, scikit-learn, etc.)*
-
----
-
-## 🤝 Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` file for more information.
