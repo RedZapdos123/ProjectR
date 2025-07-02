@@ -55,8 +55,8 @@ This project leverages several key technologies and machine learning concepts:
     * **NumPy:** For numerical operations.
     * **Scikit-learn:** For building, training, and evaluating the machine learning models.
     * **Matplotlib and Seaborn:** For data visualization and creating the plots.
-* **Web Framework (for ProjectRv1): Flask**.
-* **Core Algorithms:**
+* **Web Framework: HTML, CSS, JavaScript, and Flask**.
+* **Core Machine Learning Algorithms:**
     * **Classification:** XGBoostClassifier
     * **Regression:** XGBoostRegressor
 
